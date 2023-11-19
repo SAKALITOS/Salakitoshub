@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("SalaKitosHUB                            -SELECTOR-   ", "BloodTheme")
+
+local JUGADOR = Window:NewTab("SELECCION")
+local JUGADORSection = JUGADOR:NewSection("SECCION")
+
+
+JUGADORSection:NewButton("SalaKitosHUB (ESPAÑOL)", "inyectar", function(state)
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/BOTSKHUB/NuevosalakitosHUBpc/main/PCVERSION'))()
+end)
+
+
+JUGADORSection:NewButton("SalaKitosHUB (ENGLISH)", "inyect", function(state)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BOTSKHUB/salakitoshubpcingles/main/yes"))()
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "SalaKitosHUB";
+	Text = "CREADO POR JL_1638";
+	Icon = "rbxthumb://type=Asset&id=14183394764&w=150&h=150"})
+Duration = 18; 
