@@ -10,7 +10,7 @@ JUGADORSection:NewButton("SalaKitosHUB (ESPAÑOL)", "inyectar", function(state)
 end)
 
 
-JUGADORSection:NewButton("SalaKitosHUB (ENGLISH)", "inyect", function(state)
+JUGADORSection:NewButton("SalaKitosHUB (ENGLISH) Hey, this version is old, wait for me to update it.", "inyect", function(state)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BOTSKHUB/salakitoshubpcingles/main/yes"))()
 end)
 
