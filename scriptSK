@@ -6,7 +6,7 @@ local JUGADORSection = JUGADOR:NewSection("SECCION")
 
 
 JUGADORSection:NewButton("SalaKitosHUB (ESPAÑOL)", "inyectar", function(state)
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/BOTSKHUB/NuevosalakitosHUBpc/main/PCVERSION'))()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/SAKALITOS/Salakitoshub/main/SK-ESPA%C3%91OL'))()
 end)
 
 
